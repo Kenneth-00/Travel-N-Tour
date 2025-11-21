@@ -1,0 +1,258 @@
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+}
+
+body {
+    background: #08110f;
+}
+
+/* NAVBAR & HERO */
+.hero {
+    width: 100%;
+    height: 90vh;
+    background: url("../images/hero.jpg") center/cover no-repeat;
+    position: relative;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 70px;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+
+.call-btn {
+    background: #ff9966;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.hero-text {
+    position: absolute;
+    top: 35%;
+    left: 10%;
+}
+
+.hero-text h1 {
+    font-size: 80px;
+    font-weight: 800;
+}
+
+/* BUTTON STYLE */
+.explore-btn {
+    margin-top: 20px;
+    padding: 12px 28px;
+    background: #ff865e;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* SECTIONS */
+.section {
+    padding: 70px 80px;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+/* DESTINATIONS */
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.card {
+    background: #0f1c18;
+    padding: 15px;
+    border-radius: 10px;
+}
+.card img { width: 100%; border-radius: 10px; }
+
+/* ABOUT */
+.about {
+    display: flex;
+    padding: 70px 80px;
+    gap: 40px;
+}
+
+.about-text h2 {
+    font-size: 36px;
+}
+
+.about-text ul {
+    margin-top: 20px;
+    list-style: none;
+}
+
+.about-img img {
+    width: 400px;
+    border-radius: 10px;
+}
+
+/* PACKAGES */
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+.pkg-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* BOOK YOUR TRIP SECTION */
+.book-section {
+    padding: 70px 80px;
+    text-align: center;
+    background: #0b1513;
+}
+
+.booking-form {
+    max-width: 900px;
+    margin: auto;
+    background: #0f1c18;
+    padding: 35px;
+    border-radius: 10px;
+}
+
+.booking-form label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 6px;
+    color: #ffb699;
+}
+
+.booking-form input,
+.booking-form select,
+.booking-form textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    background: #14221f;
+    border: 1px solid #1f2e29;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.booking-form input:focus,
+.booking-form textarea:focus,
+.booking-form select:focus {
+    outline: 2px solid #ff865e;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.form-grid div:nth-child(8) {
+    grid-column: span 2;
+}
+
+.book-btn {
+    margin-top: 10px;
+    font-size: 18px;
+    padding: 14px 35px;
+}
+
+
+/* GALLERY */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* TESTIMONIAL SECTION */
+.testimonial {
+    display: flex;
+    padding: 70px 80px;
+    align-items: center;
+    gap: 40px;
+}
+
+.testi-img {
+    width: 350px;
+}
+
+/* TEAM */
+.team {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.team-card {
+    text-align: center;
+}
+
+.team-card img {
+    width: 160px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* CONTACT */
+.contact {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 60px 80px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    background: #0f1c18;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    color: #fff;
+}
+
+.map {
+    height: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* FOOTER */
+.footer {
+    padding: 25px;
+    text-align: center;
+    background: #0b1311;
+}
